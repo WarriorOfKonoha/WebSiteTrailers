@@ -17,8 +17,13 @@ li{
 
 h1,
 h2{
-    color: #444;
+    color: #999;
 }
+
+h3{
+    color: #000;
+}
+
 .btn{
     background: #f05462;
     color: white;
@@ -52,7 +57,7 @@ h2{
 
 .side-menu  li{
     font-size: 24px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -165,4 +170,26 @@ h2{
     align-items: center;
     justify-content: space-around;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .content .content-2{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.container .content .content-2 .recent-payments {
+    min-height: 50vh;
+    flex: 5;
+    background: white;
+    margin: 0 25px 25px 25px;
+}
+
+.container .content .content-2 .new-students {
+    flex: 2;
+    background: white;
+    min-height: 50vh;
+    margin: 0 25px;
+    
 }
