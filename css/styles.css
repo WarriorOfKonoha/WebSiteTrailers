@@ -1,29 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 body {
-    min-height: 100vh;
+    min-width: 100vh;
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-li {
+li{
     list-style: none;
 }
+
 h1,
-h2 {
+h2{
     color: #444;
-
 }
-
-.side-menu {
+.side-menu{
     position: fixed;
     background: #f05462;
     width: 20vw;
@@ -33,14 +29,13 @@ h2 {
 }
 
 .side-menu .brand-name {
-height: 10vh;
-display: flex;
-align-items: center;
-justify-content: center;
-
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.side-menu li {
+.side-menu  li{
     font-size: 24px;
     padding: 10px 40px;
     color: white;
@@ -48,10 +43,9 @@ justify-content: center;
     align-items: center;
 }
 
-.side-menu li:hover{
+.side-menu li:hover {
     background: white;
     color: #f05462;
-    
 }
 
 .container {
@@ -75,15 +69,17 @@ justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container .header .nav {
-        width: 90%;
-        display: flex;
-        align-items: center;
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
 }
 
-.container .header .nav .search {
+.container .header .nav .search{
     flex: 3;
+    display: flex;
     
+    justify-content: center;
 }
 
 .container .header .nav .search input[type=text]{
@@ -93,10 +89,13 @@ justify-content: center;
     width: 50%;
 }
 
-.container .header .nav .search button {
+.container .header .nav .search button{
     width: 40px;
     height: 40px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .header .nav .search button img {
@@ -104,8 +103,7 @@ justify-content: center;
     height: 30px;
 }
 
-
-.container .header .nav .user {
+.container .header .nav .user{
     flex: 1;
     background: hotpink;
 }
