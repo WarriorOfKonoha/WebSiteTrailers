@@ -254,7 +254,7 @@ th, td{
     .side-menu li:hover{
         background: #f05462;
         padding: 8px 38px;
-        border: 2px solid;
+        border: 2px solid white;
     }
 
     .container .content .content-2 .recent-payments table th:nth-child(2),
