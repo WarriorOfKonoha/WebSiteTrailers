@@ -38,6 +38,23 @@ h3{
     border: 2px solid #f05462;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+
+}
+
+table{
+    padding: 10px;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
 
 .side-menu{
     position: fixed;
@@ -184,6 +201,9 @@ h3{
     flex: 5;
     background: white;
     margin: 0 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
 }
 
 .container .content .content-2 .new-students {
@@ -191,5 +211,13 @@ h3{
     background: white;
     min-height: 50vh;
     margin: 0 25px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .content .content-2 .new-students table td:nth-child(1) img {
+    height: 40px;
+    width: 40px;
 }
